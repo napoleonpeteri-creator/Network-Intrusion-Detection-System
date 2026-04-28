@@ -9,6 +9,9 @@ SURICATA
 
 
 
+
+
+
 #Install Suricata:
 
 sudo apt install suricata -y
@@ -20,6 +23,9 @@ suricata --version
 find my network interface
 
 ip a
+
+
+
 
 
 #Rules/Alert Configuration:
@@ -36,6 +42,10 @@ Suspicious traffic
 Attack behaviors
 
 
+
+
+
+
 #Generated traffic:
 
 ping google.com or curl google.com
@@ -46,6 +56,8 @@ check Alerts results
 cat /var/log/suricata/fast.log 
 
 #screenshot traffic_result_suricata
+
+
 
 #Result Breakdown:
 
@@ -78,6 +90,9 @@ Alerts are not always attacks, some are informational
 
 
 
+
+
+
 #IMPLEMENT RESPONSE MECHANISMS:
 
 configured suricata to monitor alerts in real time
@@ -85,6 +100,9 @@ configured suricata to monitor alerts in real time
 sudo tail -f /var/log/suricata/fast.log
 
 #screenshot alerts_config_suricata
+
+
+
 
 
 alerts are generated when network activity occurs.
