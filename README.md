@@ -33,7 +33,7 @@ ip a
 
 sudo suricata-update
 
-#screenshot  rules_config_suricata
+![rules_config_suricata](images/rules_config_suricata.png)
 
 this downloads detection rules:
 
@@ -55,8 +55,8 @@ check Alerts results
 
 cat /var/log/suricata/fast.log 
 
-#screenshot traffic_result_suricata
-
+traffic_result_suricata
+![traffic_result_suricata](images/traffic_result_suricata.png)
 
 
 #Result Breakdown:
@@ -99,8 +99,8 @@ configured suricata to monitor alerts in real time
 
 sudo tail -f /var/log/suricata/fast.log
 
-#screenshot alerts_config_suricata
-
+alerts_config_suricata
+![alerts_config_suricata](images/alerts_config_suricata.png)
 
 
 
