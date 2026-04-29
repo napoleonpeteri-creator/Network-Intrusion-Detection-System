@@ -16,11 +16,11 @@ SURICATA
 
 sudo apt install suricata -y
 
-confirm suricata installed 
+#confirm suricata installed 
 
 suricata --version
 
-find my network interface
+#find my network interface
 
 ip a
 
